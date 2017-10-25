@@ -1,0 +1,141 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../Ruby24-x64/lib/ruby/gems/2.4.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 13, ../sass/screen.scss */
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+/* line 18, ../sass/screen.scss */
+.header {
+  background: url(../img/headerbg.jpg) bottom;
+  height: 800px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+/* line 24, ../sass/screen.scss */
+.header .bg-overlay {
+  margin-top: 100px;
+  position: absolute;
+  width: 100%;
+  height: 638px;
+  background: rgba(82, 102, 222, 0.5);
+}
+/* line 33, ../sass/screen.scss */
+.header .logo {
+  cursor: pointer;
+  position: relative;
+  width: 100px;
+  margin: 0 auto;
+}
+/* line 38, ../sass/screen.scss */
+.header .logo img {
+  position: fixed;
+  margin-top: 25px;
+  margin-top: -185px;
+  margin-left: 35px;
+}
+/* line 47, ../sass/screen.scss */
+.header .headmenu {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #fff;
+}
+/* line 55, ../sass/screen.scss */
+.header .headmenu ul {
+  padding-top: 50px;
+  text-align: center;
+}
+/* line 58, ../sass/screen.scss */
+.header .headmenu ul li.logospacing {
+  padding-left: 330px;
+}
+/* line 61, ../sass/screen.scss */
+.header .headmenu ul li {
+  padding-left: 20px;
+  display: inline-block;
+}
+/* line 64, ../sass/screen.scss */
+.header .headmenu ul li a {
+  color: #555555;
+  text-decoration: none;
+}
+/* line 68, ../sass/screen.scss */
+.header .headmenu ul li a:hover {
+  color: #818de5;
+  border-bottom: 1px solid;
+}
+/* line 75, ../sass/screen.scss */
+.header .head_form {
+  z-index: 5;
+}
