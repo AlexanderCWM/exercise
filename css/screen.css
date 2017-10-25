@@ -67,75 +67,59 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 13, ../sass/screen.scss */
-.container {
-  width: 1170px;
-  margin: 0 auto;
+/* line 7, ../sass/screen.scss */
+body * {
+  outline: 1px solid green;
 }
 
-/* line 18, ../sass/screen.scss */
-.header {
-  background: url(../img/headerbg.jpg) bottom;
-  height: 800px;
-  width: 100%;
-  position: absolute;
-  top: 0;
+/* line 12, ../sass/screen.scss */
+body {
+  background: yellow;
 }
-/* line 24, ../sass/screen.scss */
-.header .bg-overlay {
-  margin-top: 100px;
-  position: absolute;
-  width: 100%;
-  height: 638px;
-  background: rgba(82, 102, 222, 0.5);
-}
-/* line 33, ../sass/screen.scss */
-.header .logo {
-  cursor: pointer;
-  position: relative;
-  width: 100px;
-  margin: 0 auto;
-}
-/* line 38, ../sass/screen.scss */
-.header .logo img {
-  position: fixed;
-  margin-top: 25px;
-  margin-top: -185px;
-  margin-left: 35px;
-}
-/* line 47, ../sass/screen.scss */
-.header .headmenu {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 100px;
-  background-color: #fff;
-}
-/* line 55, ../sass/screen.scss */
-.header .headmenu ul {
-  padding-top: 50px;
+
+/* line 16, ../sass/screen.scss */
+header nav {
   text-align: center;
+  height: 100px;
+  background: #fff;
 }
-/* line 58, ../sass/screen.scss */
-.header .headmenu ul li.logospacing {
-  padding-left: 330px;
-}
-/* line 61, ../sass/screen.scss */
-.header .headmenu ul li {
-  padding-left: 20px;
+/* line 21, ../sass/screen.scss */
+header nav ul {
+  margin-right: 50px;
+  margin-top: 30px;
   display: inline-block;
 }
-/* line 64, ../sass/screen.scss */
-.header .headmenu ul li a {
-  color: #555555;
+/* line 25, ../sass/screen.scss */
+header nav ul li {
+  display: inline-block;
+}
+/* line 27, ../sass/screen.scss */
+header nav ul li a {
+  display: block;
   text-decoration: none;
+  color: #555555;
+  padding-left: 15px;
 }
-/* line 68, ../sass/screen.scss */
-.header .headmenu ul li a:hover {
-  color: #818de5;
-  border-bottom: 1px solid;
+/* line 35, ../sass/screen.scss */
+header nav ul li:nth-child(3) {
+  margin-right: 250px;
 }
-/* line 75, ../sass/screen.scss */
-.header .head_form {
-  z-index: 5;
+/* line 38, ../sass/screen.scss */
+header nav ul li:nth-child(4) {
+  margin-left: 250px;
+}
+/* line 43, ../sass/screen.scss */
+header nav .logo {
+  position: absolute;
+  height: 75px;
+  width: 119px;
+  right: 50%;
+  margin-right: -59px;
+  margin-top: -37px;
+}
+/* line 50, ../sass/screen.scss */
+header nav .logo img {
+  position: relative;
+  height: 100%;
+  width: 100%;
 }
